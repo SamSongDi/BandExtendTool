@@ -143,7 +143,7 @@ def Data_Export():
     for i in range(len(Band1)):
         fp.write(str(i))
         fp.write(",")
-        fp.write(str(Band2[i]))
+        fp.write(str(Band1[i]))
         fp.write(",")
         fp.write(str(track1Band1[i][0]+1))
         fp.write(",")
